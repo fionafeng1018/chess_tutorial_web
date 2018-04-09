@@ -1,5 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
+body, html, .main {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
 
 body{
 	background-image:url(images/background.jpg);
@@ -11,16 +18,21 @@ body{
 	font-family: "Avenir";
 	color: #4a2d20;
 }
-
+h1{
+	font-weight: 100;
+}
 .home_main_image{
-	width: 100%;
-	height: 100%;
+	width: 70%;
+	height: 70%;
 }
 .logo{
-	height: 100%;
-	width: 100%;
+	height: 60px;
+	width: 65px;
 }
-
+.navbar-header{
+	padding-right: 20px;
+	
+}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color:#B21315;
@@ -49,4 +61,7 @@ a{
 .center{
 	text-align: center;
 }
-
+.slide_d_btn{
+	height: 60px;
+	width: 130px;
+}
