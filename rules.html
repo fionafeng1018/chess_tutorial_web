@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Bootstrap 3-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap 3-->
 <title>Play Chess</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="site.css">
@@ -13,28 +14,52 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-right">
-  		<div class="container-fluid">
-    		<div class="collapse navbar-collapse" id="myNavbar">
-      			<ul class="nav navbar-nav">
-        			<li><a href="index.html">HOME</a></li>
-        			<li><a href="rules.html">The Rules</a></li>
-        			<li><a href="joseki.html">Joseki</a></li>
-        			<li><a href="qa.html">Q&amp;A</a></li>
-        			<li><a href="contact.html">CONTACT</a></li>
-      			</ul>
-    		</div>
-  		</div>
-	</nav>
-	<div class="container-fluid">
-		
-	</div>
-	<footer>
-		<div class="container-fluid">
-			<p class="copyright">&copy; Copyright 2018.</p>
-		</div>
-	</footer>
+<div class="container-fluid">
+<nav class="navbar navbar-right">
+  <div class="container-fluid">
+    <div class="navbar-header"> <img class="logo" src="images/logo.png"> </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="rules.html">The Rules</a></li>
+      <li><a href="joseki.html">Joseki</a></li>
+      <li><a href="qa.html">Q&amp;A</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+<div class="container rule_text">
+  <div class="row rule_text">
+    <h1>The Rules:</h1>
+    <p>The following are the most basic rules in Go:</p>
+    <ul>
+      <li>Black makes the first move.</li>
+      <li>Once the stone is placed, should not be allowed to shift to another point.</li>
+      <li>A player may pass their turn at any time.</li>
+      <li>The stone must be placed on the intersection but not in the square.</li>
+    </ul>
+  </div>
+  <div class="row center"> <img class="rule_image" src="images/rule 4.jpg"> </div>
+  <div class="row rule_text">
+    <p>The stone is not allowed to be placed on the “forbidden point”, which means the stone has no liberty when being placed on that point, unless this move can take away the opponent’s stone.</p>
+  </div>
+  <div class="row center"> <img class="rule_image" src="images/rule 5.jpg"> </div>
+  <div class="row rule_text">
+    <p> To pick up the opponent’s stone in a ko (“see-saw fight”) situation, the player should make another move instead of capturing the stone immediately.</p>
+  </div>
+  <div class="row center"> <img class="rule_image" src="images/rule 6.jpg"> </div>
+  <div class="row rule_text">
+    <p>Any stones that have no liberties after being captured should be taken away from the board.</p>
+  </div>
+  <div class="row center"> <img class="rule_image" src="images/rule 7.jpg"> </div>
+  <div class="row rule_text">
+    <p>The winner is determined by the number of stones that player has on the board plus the points in empty area surrounded by that player's stones. (1 stone = 1 point) Black needs 185 points to win the game, and the white needs 177 points.</p>
+  </div>
+</div>
+<footer>
+  <div class="container-fluid">
+    <p class="copyright">&copy; 2018 Huiyi Yang All Rights Reserved</p>
+  </div>
+</footer>
 </body>
 </html>
-
-

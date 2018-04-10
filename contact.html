@@ -2,9 +2,53 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap 3-->
+<title>Play Chess</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="site.css">
+<script>var adobewebfontsappname ="dreamweaver"</script>
+<script src="http://use.edgefonts.net/avenir:n4:default.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+<div class="container-fluid">
+  <nav class="navbar navbar-right">
+    <div class="container-fluid">
+      <div class="navbar-header"> <img class="logo" src="images/logo.png"> </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rules.html">The Rules</a></li>
+        <li><a href="joseki.html">Joseki</a></li>
+        <li><a href="qa.html">Q&amp;A</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="container">
+  <div class="row">
+    <h1>Contact Us:</h1>
+  </div>
+  <div class="row center"> <img class="round_pic" src="images/nina.jpg"> </div>
+  <div class="row center rule_text">
+    <p>Email: ninayounghuiyi@gmail.com</p>
+    <p>Phone: (647) 861-8073</p>
+  </div>
+  <form action="mailto:ninayounghuiyi@gmail.com" method="post" enctype="text/plain">
+    <input name="name" type="text" class="feedback-input" placeholder="Name" required/>
+    <input id="email" name="email" type="text" class="feedback-input" placeholder="Email" required/>
+    <div id="emailErr"></div>
+    <textarea name="text" class="feedback-input" placeholder="Message" required ></textarea>
+    <input type="submit" id="send"  value="SEND"/>
+  </form>
+</div>
+<footer>
+  <div class="container-fluid">
+    <p class="copyright">&copy; 2018 Huiyi Yang All Rights Reserved</p>
+  </div>
+</footer>
 </body>
 </html>
