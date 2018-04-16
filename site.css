@@ -46,22 +46,28 @@ a{
 	font-family: "Avenir";
 	color: #4a2d20;
 }
+a:hover{
+	color: #C2A78E;
+	background-color: transparent !important;
+}
 
+a:visited{
+	color: #898989;
+}
 .copyright{
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 .center{
 	text-align: center;
 }
 .slide_d_btn{
-	height: 40px;
-	width: 100px;
+	height: 35px;
+	width: 70px;
 }
 
 .rule_text{
 	font-size:20px;
-	padding: 20px;
 }
 
 .rule_image{
@@ -133,3 +139,13 @@ textarea {
   font-weight:700;
 }
 #send:hover { background:#8C7272; }
+
+.intro_text{
+	background-color: rgba(255,255,255,0.70);
+	border-radius: 25px;
+	padding:15px 30px 30px 30px;
+}
+
+.back_to_top{
+	text-align: center !important;
+}
